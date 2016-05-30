@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<Pane id="pane" fx:id="loginPane" prefHeight="459.0" prefWidth="631.0" styleClass="cssLoginPane" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="controller.LogInController2">
+  <children>
+    <Label layoutX="134.0" layoutY="40.0" prefHeight="42.0" prefWidth="342.0001220703125" styleClass="cssHeader" text="Next Window" textAlignment="JUSTIFY" textFill="#9b9d89">
+      <font>
+        <Font name="System Bold" size="18.0" />
+      </font>
+    </Label>
+    <Pane fx:id="headerPane" layoutX="134.0" layoutY="123.0" prefHeight="52.0" prefWidth="302.0" styleClass="cssLoginHeader">
+      <children>
+        <Label layoutX="119.0" layoutY="18.0" styleClass="cssLblLoginHeader" text="LOG IN">
+          <font>
+            <Font size="22.0" />
+          </font>
+        </Label>
+      </children>
+    </Pane>
+    <Pane fx:id="innerPane" layoutX="134.0" layoutY="175.0" minHeight="171.0" prefHeight="206.0" prefWidth="302.0" styleClass="cssLoginInner">
+      <children>
+        <Button fx:id="btnNextWindow" layoutX="144.0" layoutY="138.0" mnemonicParsing="false" onAction="#nextWindow" prefHeight="25.0" prefWidth="68.0" text="First On" />
+        <TextField fx:id="txtusername" text="Click Button to Next Window" layoutX="144.0" layoutY="38.0" />
+      </children>
+    </Pane>
+    
+  </children>
+</Pane>
